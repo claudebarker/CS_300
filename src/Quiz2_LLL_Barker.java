@@ -66,7 +66,7 @@ public class Quiz2_LLL_Barker {
 			if(null != array[i]){
 				
 				empty = false;
-				System.out.print(array[i] + " ");
+				System.out.print(array[i].getData() + " ");
 			}
 			
 		}
