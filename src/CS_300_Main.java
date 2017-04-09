@@ -1,11 +1,15 @@
 
 public class CS_300_Main {
-
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Quiz2_LLL_Barker test_LLL = new Quiz2_LLL_Barker();
 
-		test_LLL.insert(0, "test0");
+
+		TestOBJ test = new TestOBJ();
+		
+		test_LLL.insert(0, test);
 		test_LLL.insert(0, "test1");
 		test_LLL.insert(0, "test2");
 		test_LLL.insert(0, "test3");

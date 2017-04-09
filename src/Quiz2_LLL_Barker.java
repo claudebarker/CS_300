@@ -66,8 +66,7 @@ public class Quiz2_LLL_Barker {
 			if(null != array[i]){
 				
 				empty = false;
-				array[i].display();
-				System.out.print(" ");
+				System.out.print(array[i] + " ");
 			}
 			
 		}
@@ -83,10 +82,6 @@ public class Quiz2_LLL_Barker {
 	private class Node{
 		private Object data;
 		
-		public Node(){
-			data = null;
-		}
-		
 		public Node(Object data){
 			this.data = data;
 		}
@@ -97,10 +92,6 @@ public class Quiz2_LLL_Barker {
 
 		public void setData(Object data) {
 			this.data = data;
-		}
-		
-		public void display(){
-			System.out.print(data);
 		}
 		
 	}
